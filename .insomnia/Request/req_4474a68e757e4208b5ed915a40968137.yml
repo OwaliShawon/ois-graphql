@@ -1,0 +1,44 @@
+_id: req_4474a68e757e4208b5ed915a40968137
+type: Request
+parentId: fld_e80d4c27f1f54d75acc4cd550e740774
+modified: 1664259619794
+created: 1663670755567
+url: http://localhost:2226/graphql
+name: createEnquiry
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{ \n  createEnquiry(\n\t\tinput: {\n\t\t\t\tcreated_by:
+    2001140000,\n\t\t\t\tcreated_by_ip:
+    \"170.12.111.5\",\n\t\t\t\tacademic_year_id: 33,\n\t\t\t\tbranch_id:
+    1,\n\t\t\t\tclass_id: 9,\n\t\t\t\tguardian_contact:
+    \"01711567087\",\n\t\t\t\tcreated_time:
+    \"2022-03-20T06:07:01.000Z\",\n\t\t\t\tcur_academic_year_id:
+    33,\n\t\t\t\tdob: \"2011-09-09T00:00:00.000Z\",\n\t\t\t\tguardian_email:
+    \"owali@shawon.com\",\n\t\t\t\tgender: 1,\n\t\t\t\tguardian_first_name:
+    \"Yia Amin\",\n\t\t\t\tguardian_last_name: \"Mahbuba\",\n\t\t\t\tis_buy:
+    true,\n\t\t\t  note: \"Test Man\",\n\t\t\t\tpresent_district_id:
+    8,\n\t\t\t\tpresent_division_id: 1,\n\t\t\t\tpresent_house_no: \"Building
+    no. 22, Flat- 702\",\n\t\t\t\tpresent_post_code:
+    1207,\n\t\t\t\tpresent_road_no: \"Ring Road
+    Mohammedpur\",\n\t\t\t\tpresent_thana_id: 42,\n\t\t\t\tprevious_school:
+    \"Paramount School and College.\",\n\t\t\t\tsec_aca_session_id:
+    34,\n\t\t\t\trelation_id: 2,\n\t\t\t\tsession_last_day:
+    \"2023-06-30T00:00:00.000Z\",\n\t\t\t  shift_id: 1,\n\t\t\t\tsibling_id:
+    null,\n\t\t\t\tfirst_name: \"Al Hajj\",\n\t\t\t\tlast_name:
+    \"Parvez\",\n\t\t}){\n\t  academic_year_id\n    branch_id\n    class_id\n    guardian_contact\n    count\n    created_time\n    cur_academic_year_id\n    dob\n    guardian_email\n    gender\n    guardian_first_name\n    guardian_last_name\n    is_buy\n    note\n    parents_name\n    present_district_id\n    present_division_id\n    present_house_no\n    present_post_code\n    present_road_no\n    present_thana_id\n    previous_school\n    sec_aca_session_id\n    relation_id\n    session_last_day\n    shift_id\n    sibling_id\n    first_name\n    last_name\n\t}\n}\n\n\n\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_242c75fca04b4ee28adce6d792468b1c
+authentication: {}
+metaSortKey: -1664259552892.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

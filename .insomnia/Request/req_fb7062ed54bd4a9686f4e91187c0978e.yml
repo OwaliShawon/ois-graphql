@@ -1,0 +1,31 @@
+_id: req_fb7062ed54bd4a9686f4e91187c0978e
+type: Request
+parentId: fld_e80d4c27f1f54d75acc4cd550e740774
+modified: 1664260064430
+created: 1663658022351
+url: http://localhost:2226/graphql
+name: getEnquiry
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  getEnquiry(academic_year_id: 33)
+    {\n    academic_year_id\n    branch_id\n    class_id\n    guardian_contact\n    count\n    created_time\n    cur_academic_year_id\n    dob\n    guardian_email\n    enquiry_id\n    gender\n    guardian_first_name\n    guardian_last_name\n    is_buy\n    note\n    parents_name\n    present_district_id\n    present_division_id\n    present_house_no\n    present_post_code\n    present_road_no\n    present_thana_id\n    previous_school\n    sec_aca_session_id\n    relation_id\n    session_last_day\n    shift_id\n    sibling_id\n    first_name\n    last_name\n    std_name\n  }\n}\n"}'
+parameters:
+  - id: pair_5ab3ba80cd414eb396995b83ddaf4266
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1476a774820249309e8940e4bec1fd41
+authentication: {}
+metaSortKey: -1664259552842.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
